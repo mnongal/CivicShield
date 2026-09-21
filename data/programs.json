@@ -1,0 +1,129 @@
+[
+  {
+    "id": "food",
+    "name": "Community Food Connection",
+    "category": "food",
+    "summary": "Find groceries and meals at NYC food pantries and community kitchens.",
+    "source_url": "https://access.nyc.gov/programs/emergency-food-assistance/",
+    "last_updated": "2026-06-18",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Open the NYC Food Help Finder and enter your ZIP code to find nearby food locations. Confirm hours before visiting, or call 311.",
+      "documents": [],
+      "limitations": "Availability and hours vary by location. This is a resource referral, not a benefit approval."
+    }
+  },
+  {
+    "id": "snap",
+    "name": "SNAP",
+    "category": "food",
+    "summary": "Monthly grocery assistance through an EBT card.",
+    "source_url": "https://access.nyc.gov/programs/supplemental-nutrition-assistance-program-snap/",
+    "last_updated": "2026-07-06",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Open the official SNAP guide and start an application through ACCESS HRA; an interview is part of the process.",
+      "documents": [
+        "Identity",
+        "Household income",
+        "Household composition"
+      ],
+      "limitations": "This MVP does not implement SNAP financial, deduction, work, student, or immigration rules. HRA must assess your application."
+    }
+  },
+  {
+    "id": "homebase",
+    "name": "Homebase",
+    "category": "housing",
+    "summary": "Housing support for New Yorkers at risk of entering shelter.",
+    "source_url": "https://access.nyc.gov/programs/homebase/",
+    "last_updated": "2024-04-04",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Call 311 to locate your Homebase office and arrange an appointment.",
+      "documents": [
+        "Identity",
+        "Income records",
+        "Lease or rental agreement",
+        "Rent demand or court papers, if any"
+      ],
+      "limitations": "An office reviews your circumstances. Missing documents do not prevent an initial assessment."
+    }
+  },
+  {
+    "id": "one-shot",
+    "name": "One Shot Deal",
+    "category": "housing",
+    "summary": "Emergency financial assistance assessed individually by HRA.",
+    "source_url": "https://access.nyc.gov/programs/one-shot-deal/",
+    "last_updated": "2025-04-08",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Read the official emergency assistance guide and request a case review through ACCESS HRA.",
+      "documents": [
+        "Identity",
+        "Income records",
+        "Lease and bills",
+        "Court papers, if any"
+      ],
+      "limitations": "Eligibility is case by case. Savings, emergency circumstances, future affordability and other factors matter. Some or all assistance may need to be repaid."
+    }
+  },
+  {
+    "id": "cash",
+    "name": "Cash Assistance",
+    "category": "cash",
+    "summary": "Ongoing cash support for households in need.",
+    "source_url": "https://access.nyc.gov/programs/cash-assistance/",
+    "last_updated": "2025-06-17",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Review the Cash Assistance guide and apply through ACCESS HRA; follow the interview instructions on your confirmation.",
+      "documents": [
+        "Identity",
+        "Proof of residence",
+        "Income records"
+      ],
+      "limitations": "HRA reviews income, household composition, resources and other requirements. This MVP cannot calculate eligibility or payment amounts."
+    }
+  },
+  {
+    "id": "unemployment",
+    "name": "Unemployment Insurance",
+    "category": "work",
+    "summary": "New York State income support after qualifying job loss.",
+    "source_url": "https://dol.ny.gov/you-file-claim-unemployment-faqs",
+    "last_updated": null,
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Read the NY Department of Labor filing guidance and file promptly if you believe you may qualify.",
+      "documents": [
+        "Employment history",
+        "Wage records"
+      ],
+      "limitations": "DOL determines eligibility. Wage history, separation reason, work search, hours and earnings require review. This MVP only checks a few initial indicators."
+    }
+  },
+  {
+    "id": "fair-fares",
+    "name": "Fair Fares NYC",
+    "category": "transport",
+    "summary": "Reduced transit fares for qualifying NYC residents.",
+    "source_url": "https://access.nyc.gov/programs/fair-fares/",
+    "last_updated": "2025-11-06",
+    "verified_at": "2026-09-18",
+    "details": {
+      "action": "Check the current Fair Fares requirements on the official page and apply through ACCESS HRA.",
+      "documents": [
+        "Identity and age",
+        "NYC residence",
+        "Household income"
+      ],
+      "limitations": "Preliminary screening uses the cited page's age and annual household income table. Other fare benefits and agency verification are not evaluated.",
+      "annual_limit_one_person": 23475,
+      "annual_limit_additional_person": 8250,
+      "min_age": 18,
+      "max_age": 64
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "borough": "Brooklyn",
+  "household_size": 1,
+  "monthly_income": 0,
+  "annual_income": 18000,
+  "age": 28,
+  "needs": ["food", "housing", "cash", "work", "transport"],
+  "housing_risk": true,
+  "job_loss": true,
+  "worked_in_ny": true,
+  "able_and_seeking_work": true
+}
